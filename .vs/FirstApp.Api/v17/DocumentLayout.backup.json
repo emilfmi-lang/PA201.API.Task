@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\firstapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\firstapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "FirstApp.Api\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Controllers\\CategoryController.cs*",
+              "RelativeToolTip": "FirstApp.Api\\Controllers\\CategoryController.cs*",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswC0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T17:45:40.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FirstApp.Api",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\FirstApp.Api.csproj",
+              "RelativeDocumentMoniker": "FirstApp.Api\\FirstApp.Api.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\FirstApp.Api.csproj",
+              "RelativeToolTip": "FirstApp.Api\\FirstApp.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-25T17:43:59.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "FirstApp.Api\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Models\\Category.cs",
+              "RelativeToolTip": "FirstApp.Api\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T17:44:46.729Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
