@@ -2,8 +2,6 @@
 
 
 using FirstApp.Api;
-using FirstApp.Api.Data;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
