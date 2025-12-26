@@ -138,3 +138,9 @@ C:\Users\User\Desktop\Backend.Api\FirstApp.Api\FirstApp.Api\bin\Debug\net8.0\run
 C:\Users\User\Desktop\Backend.Api\FirstApp.Api\FirstApp.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\User\Desktop\Backend.Api\FirstApp.Api\FirstApp.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\User\Desktop\Backend.Api\FirstApp.Api\FirstApp.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\User\Desktop\Backend.Api\FirstApp.Api\FirstApp.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\User\Desktop\Backend.Api\FirstApp.Api\FirstApp.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\Backend.Api\FirstApp.Api\FirstApp.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Desktop\Backend.Api\FirstApp.Api\FirstApp.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Desktop\Backend.Api\FirstApp.Api\FirstApp.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Desktop\Backend.Api\FirstApp.Api\FirstApp.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

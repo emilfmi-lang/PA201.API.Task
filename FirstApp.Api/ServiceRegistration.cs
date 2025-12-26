@@ -1,6 +1,7 @@
 ﻿using FirstApp.Api.Data;
-using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using FirstApp.Api.Profiles;
 
 namespace FirstApp.Api;
 
@@ -16,9 +17,10 @@ public static class ServiceRegistration
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(config.GetConnectionString("DefaultConnection"))
         );
-        services.AddAutoMapper (opt=>
+        services.AddAutoMapper(opt =>
         {
-           opt.AddProfile(new MapProfile());
-        });
+            opt.AddProfile<MapProfile>();
+        }
+        );
     }
 }
