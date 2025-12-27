@@ -22,5 +22,8 @@ public class CategoryConfiguration : IEntityTypeConfiguration<Category>
         builder.HasMany(c => c.Products)
             .WithOne(p => p.Category)
             .HasForeignKey(p => p.CategoryId);
+        builder.Property(x => x.ImageUrl)
+            .IsRequired()
+            .HasMaxLength(200);
     }
 }

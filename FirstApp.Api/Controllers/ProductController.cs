@@ -1,4 +1,5 @@
 ﻿
+using AutoMapper;
 using FirstApp.Api.Data;
 using FirstApp.Api.Dtos.Products;
 using FirstApp.Api.Models;
@@ -9,7 +10,7 @@ namespace FirstApp.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class ProductController(AppDbContext appDbContext) : ControllerBase
+public class ProductController(AppDbContext appDbContext,IMapper mapper) : ControllerBase
 {
     [HttpGet]
     public ActionResult Get()
@@ -17,27 +18,9 @@ public class ProductController(AppDbContext appDbContext) : ControllerBase
         var products = appDbContext.Products
             .Include(x => x.Category)
             .ToList();
-        List<ProductReturnDto> productsReturnDto = new List<ProductReturnDto>();
-        foreach (var product in products)
-        {
-            ProductReturnDto productDto = new ProductReturnDto
-            {
-                Id = product.Id,
-                Name = product.Name,
-                Description = product.Description,
-                Price = product.Price,
-                CategoryId = product.CategoryId,
-                CreatedDate = product.CreatedDate,
-                UpdatedDate = product.UpdatedDate,
-                Category = new CategoryInProductReturnDto
-                {
-                    Name = product.Category.Name,
-                    Description = product.Category.Description
-                }
-            };
-            productsReturnDto.Add(productDto);
-        }
-        return Ok(productsReturnDto);
+        List<ProductReturnDto> productDtos = mapper.Map<List<ProductReturnDto>>(products);
+
+        return Ok(productDtos);
     }
     [HttpPost]
     public IActionResult Post([FromBody] Product product)
@@ -54,21 +37,7 @@ public class ProductController(AppDbContext appDbContext) : ControllerBase
             .FirstOrDefault(p => p.Id == id);
         if (product == null)
             return NotFound();
-        ProductReturnDto productDto = new ()
-        {
-            Id = product.Id,
-            Name = product.Name,
-            Description = product.Description,
-            Price = product.Price,
-            CategoryId = product.CategoryId,
-            CreatedDate = product.CreatedDate,
-            UpdatedDate = product.UpdatedDate,
-            Category = new CategoryInProductReturnDto
-            {
-                Name = product.Category.Name,
-                Description = product.Category.Description
-            }
-        };
+        var productDto = mapper.Map<ProductReturnDto>(product);
         return Ok(productDto);
     }
     [HttpPut("{id}")]

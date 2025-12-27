@@ -1,6 +1,4 @@
-﻿using FirstApp.Api.Models;
-
-namespace FirstApp.Api.Dtos.Categories;
+﻿namespace FirstApp.Api.Dtos.Categories;
 
 public class CategoriesReturnDto
 {
@@ -10,6 +8,7 @@ public class CategoriesReturnDto
     public DateTime CreatedDate { get; set; }
     public DateTime? UpdatedDate { get; set; }
     public List<ProductInCategoryDto> Products { get; set; }
+    public int PCount { get; set; }
 
 }
 public class ProductInCategoryDto

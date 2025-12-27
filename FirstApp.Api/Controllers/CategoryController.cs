@@ -3,12 +3,15 @@ using FirstApp.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using FirstApp.Api.Dtos.Categories;
+using AutoMapper;
+using FirstApp.Api.Helpers;
 
 namespace FirstApp.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class CategoryController(AppDbContext appDbContext) : ControllerBase
+public class CategoryController(AppDbContext appDbContext
+                               ,IMapper mapper) : ControllerBase
 {
     [HttpGet]
     public ActionResult Get()
@@ -39,12 +42,15 @@ public class CategoryController(AppDbContext appDbContext) : ControllerBase
         return Ok(CategoriesReturnDto);
     }
     [HttpGet("{id}")]
-    public ActionResult<Category> GetById(int id)
+    public IActionResult Get(int id)
     {
-        var category = appDbContext.Categories.FirstOrDefault(c => c.Id == id);
+        var category = appDbContext.Categories
+           .Include(x => x.Products).
+            FirstOrDefault(c => c.Id == id);
         if (category == null)
             return NotFound();
-        return Ok(category);
+        CategoriesReturnDto categoriesReturnDto = mapper.Map<CategoriesReturnDto>(category);
+        return Ok(categoriesReturnDto);
     }
     [HttpPut("{id}")]
     public IActionResult Put(int id,[FromBody] CategoryUpdateDto categoryUpdateDto )
@@ -58,13 +64,12 @@ public class CategoryController(AppDbContext appDbContext) : ControllerBase
         return NoContent();
     }
     [HttpPost]
-    public IActionResult Post([FromBody] CategoryCreateDto categoryCreateDto)
+    public IActionResult Post([FromForm] CategoryCreateDto categoryCreateDto)
     {
-        var category = new Category
-        {
-            Name = categoryCreateDto.Name,
-            Description = categoryCreateDto.Description
-        };
+        if (appDbContext.Categories.Any(c => c.Name == categoryCreateDto.Name))
+            return Conflict();
+        var category = mapper.Map<Category>(categoryCreateDto);
+        category.ImageUrl = categoryCreateDto.File.SaveFile("wwwroot/images/");
         appDbContext.Categories.Add(category);
         appDbContext.SaveChanges();
         return StatusCode(StatusCodes.Status201Created);

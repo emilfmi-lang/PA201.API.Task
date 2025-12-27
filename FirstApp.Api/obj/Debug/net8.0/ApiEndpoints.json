@@ -18,16 +18,26 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "categoryCreateDto",
-        "Type": "FirstApp.Api.Dtos.Categories.CategoryCreateDto",
-        "IsRequired": true
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "FirstApp.Api.Controllers.CategoryController",
-    "Method": "GetById",
+    "Method": "Get",
     "RelativePath": "api/Category/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -39,17 +49,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "FirstApp.Api.Models.Category",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "FirstApp.Api.Controllers.CategoryController",
