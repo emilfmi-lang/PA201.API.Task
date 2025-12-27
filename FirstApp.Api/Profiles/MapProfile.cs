@@ -16,5 +16,7 @@ public class MapProfile:Profile
         CreateMap<Category, CategoriesReturnDto>()
             .ForMember(dest => dest.PCount, opt => opt.MapFrom(src => src.Products.Count));
         CreateMap<Product, ProductInCategoryDto>();
+        CreateMap<CategoryUpdateDto, Category>();
+        CreateMap<ProductUpdateDto, Product>();
     }
 }

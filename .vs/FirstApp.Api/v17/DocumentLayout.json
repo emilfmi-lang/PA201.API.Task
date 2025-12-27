@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\dtos\\categories\\categoriesreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\dtos\\categories\\categoriesreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\dtos\\products\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\dtos\\products\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\profiles\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\profiles\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\dtos\\categories\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\dtos\\categories\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\dtos\\categories\\categoriesreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\dtos\\categories\\categoriesreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\dtos\\categories\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\dtos\\categories\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\data\\configuration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,20 +54,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Dtos\\Categories\\CategoryCreateDto.cs",
-              "RelativeDocumentMoniker": "FirstApp.Api\\Dtos\\Categories\\CategoryCreateDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Dtos\\Categories\\CategoryCreateDto.cs",
-              "RelativeToolTip": "FirstApp.Api\\Dtos\\Categories\\CategoryCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Dtos\\Products\\ProductUpdateDto.cs",
+              "RelativeDocumentMoniker": "FirstApp.Api\\Dtos\\Products\\ProductUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Dtos\\Products\\ProductUpdateDto.cs",
+              "RelativeToolTip": "FirstApp.Api\\Dtos\\Products\\ProductUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T08:44:32.334Z",
+              "WhenOpened": "2025-12-27T13:10:35.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CategoriesReturnDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Dtos\\Categories\\CategoriesReturnDto.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Dtos\\Categories\\CategoriesReturnDto.cs",
@@ -71,8 +75,7 @@
               "RelativeToolTip": "FirstApp.Api\\Dtos\\Categories\\CategoriesReturnDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T08:44:32.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T08:44:32.823Z"
             },
             {
               "$type": "Document",
@@ -82,14 +85,14 @@
               "RelativeDocumentMoniker": "FirstApp.Api\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "FirstApp.Api\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAQwCwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwEsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T08:42:18.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CategoryConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Data\\Configuration\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Data\\Configuration\\CategoryConfiguration.cs",
@@ -97,12 +100,11 @@
               "RelativeToolTip": "FirstApp.Api\\Data\\Configuration\\CategoryConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T08:42:05.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T08:42:05.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProductReturnDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Dtos\\Products\\ProductReturnDto.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Dtos\\Products\\ProductReturnDto.cs",
@@ -110,38 +112,49 @@
               "RelativeToolTip": "FirstApp.Api\\Dtos\\Products\\ProductReturnDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T08:20:46.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T08:20:46.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MapProfile.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Profiles\\MapProfile.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Profiles\\MapProfile.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Profiles\\MapProfile.cs",
               "RelativeToolTip": "FirstApp.Api\\Profiles\\MapProfile.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T08:17:13.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Controllers\\ProductController.cs",
               "RelativeToolTip": "FirstApp.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwDYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T08:17:56.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "CategoryCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Dtos\\Categories\\CategoryCreateDto.cs",
+              "RelativeDocumentMoniker": "FirstApp.Api\\Dtos\\Categories\\CategoryCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Dtos\\Categories\\CategoryCreateDto.cs",
+              "RelativeToolTip": "FirstApp.Api\\Dtos\\Categories\\CategoryCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T08:44:32.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "20251227082905_mig_2.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Data\\Migrations\\20251227082905_mig_2.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Data\\Migrations\\20251227082905_mig_2.cs",
@@ -149,12 +162,11 @@
               "RelativeToolTip": "FirstApp.Api\\Data\\Migrations\\20251227082905_mig_2.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T08:29:15.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T08:29:15.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ProductConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Data\\Configuration\\ProductConfiguration.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Data\\Configuration\\ProductConfiguration.cs",
@@ -162,8 +174,7 @@
               "RelativeToolTip": "FirstApp.Api\\Data\\Configuration\\ProductConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T08:20:43.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T08:20:43.389Z"
             }
           ]
         }

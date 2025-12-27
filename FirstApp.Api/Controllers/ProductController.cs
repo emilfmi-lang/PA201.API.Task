@@ -10,7 +10,7 @@ namespace FirstApp.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class ProductController(AppDbContext appDbContext,IMapper mapper) : ControllerBase
+public class ProductController(AppDbContext appDbContext, IMapper mapper) : ControllerBase
 {
     [HttpGet]
     public ActionResult Get()
@@ -41,16 +41,14 @@ public class ProductController(AppDbContext appDbContext,IMapper mapper) : Contr
         return Ok(productDto);
     }
     [HttpPut("{id}")]
-    public IActionResult Put(Product product)
+    public IActionResult Put(int id, [FromBody] ProductUpdateDto productUpdateDto)
     {
-        var existingProduct = appDbContext.Products.FirstOrDefault(p => p.Id == product.Id);
+        var existingProduct = appDbContext.Products.FirstOrDefault(p => p.Id == id);
         if (existingProduct == null)
             return NotFound();
-        if(!appDbContext.Categories.Any(c => c.Id == product.CategoryId))
+        if (!appDbContext.Categories.Any(c => c.Id == productUpdateDto.CategoryId))
             return BadRequest();
-        existingProduct.Name = product.Name;
-        existingProduct.Price = product.Price;
-        existingProduct.CategoryId = product.CategoryId;
+        mapper.Map(productUpdateDto, existingProduct);
         appDbContext.SaveChanges();
         return NoContent();
     }
@@ -71,7 +69,7 @@ public class ProductController(AppDbContext appDbContext,IMapper mapper) : Contr
     {
         foreach (var product in products)
         {
-            if(!appDbContext.Categories.Any(c => c.Id == product.CategoryId))
+            if (!appDbContext.Categories.Any(c => c.Id == product.CategoryId))
                 return BadRequest();
         }
         appDbContext.Products.AddRange(products);

@@ -10,8 +10,7 @@ namespace FirstApp.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class CategoryController(AppDbContext appDbContext
-                               ,IMapper mapper) : ControllerBase
+public class CategoryController(AppDbContext appDbContext, IMapper mapper) : ControllerBase
 {
     [HttpGet]
     public ActionResult Get()
@@ -24,7 +23,7 @@ public class CategoryController(AppDbContext appDbContext
         {
             CategoriesReturnDto categoryDto = new CategoriesReturnDto
             {
-                Id =  category.Id,
+                Id = category.Id,
                 Name = category.Name,
                 Description = category.Description,
                 CreatedDate = category.CreatedDate,
@@ -53,13 +52,14 @@ public class CategoryController(AppDbContext appDbContext
         return Ok(categoriesReturnDto);
     }
     [HttpPut("{id}")]
-    public IActionResult Put(int id,[FromBody] CategoryUpdateDto categoryUpdateDto )
+    public IActionResult Put(int id, [FromBody] CategoryUpdateDto categoryUpdateDto)
     {
         var existingCategory = appDbContext.Categories.FirstOrDefault(c => c.Id == id);
         if (existingCategory == null)
             return NotFound();
-        existingCategory.Name = categoryUpdateDto.Name;
-        existingCategory.Description = categoryUpdateDto.Description;
+        if (appDbContext.Categories.Any(c => c.Name == categoryUpdateDto.Name && c.Id != id))
+            return Conflict();
+        mapper.Map(categoryUpdateDto, existingCategory);
         appDbContext.SaveChanges();
         return NoContent();
     }
@@ -75,7 +75,7 @@ public class CategoryController(AppDbContext appDbContext
         return StatusCode(StatusCodes.Status201Created);
     }
 
-   [HttpDelete("{id}")]
+    [HttpDelete("{id}")]
     public IActionResult Delete(int id)
     {
         var category = appDbContext.Categories.FirstOrDefault(c => c.Id == id);
@@ -86,8 +86,9 @@ public class CategoryController(AppDbContext appDbContext
     }
     //category bulky creation
     [HttpPost("bulky")]
-    public IActionResult PostBulky([FromBody] List<Category> categories)
+    public IActionResult PostBulky([FromBody] List<CategoryCreateDto>  categoryCreateDtos)
     {
+        var categories = mapper.Map<List<Category>>(categoryCreateDtos);
         appDbContext.Categories.AddRange(categories);
         appDbContext.SaveChanges();
         return StatusCode(StatusCodes.Status201Created);
