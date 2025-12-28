@@ -52,7 +52,7 @@ public class CategoryController(AppDbContext appDbContext, IMapper mapper) : Con
         return Ok(categoriesReturnDto);
     }
     [HttpPut("{id}")]
-    public IActionResult Put(int id, [FromBody] CategoryUpdateDto categoryUpdateDto)
+    public IActionResult Put(int id, [FromForm] CategoryUpdateDto categoryUpdateDto)
     {
         var existingCategory = appDbContext.Categories.FirstOrDefault(c => c.Id == id);
         if (existingCategory == null)

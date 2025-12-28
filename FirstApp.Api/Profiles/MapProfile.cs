@@ -1,18 +1,22 @@
 ﻿using AutoMapper;
 using FirstApp.Api.Dtos.Categories;
 using FirstApp.Api.Dtos.Products;
+using FirstApp.Api.Helpers;
 using FirstApp.Api.Models;
 
 namespace FirstApp.Api.Profiles;
 
-public class MapProfile:Profile
+public class MapProfile : Profile
 {
     public MapProfile()
     {
         CreateMap<Product, ProductReturnDto>();
-            //.ForMember(dest => dest.Category, opt => opt.MapFrom(src => src.Category.Name));
+        //.ForMember(dest => dest.Category, opt => opt.MapFrom(src => src.Category.Name));
         CreateMap<Category, CategoryInProductReturnDto>();
-        CreateMap<CategoryCreateDto, Category>();
+        CreateMap<CategoryCreateDto, Category>()
+            .ForMember(desc => desc.ImageUrl, opt =>
+             opt.MapFrom(src => src.File.SaveFile("wwwroot/images/")));
+
         CreateMap<Category, CategoriesReturnDto>()
             .ForMember(dest => dest.PCount, opt => opt.MapFrom(src => src.Products.Count));
         CreateMap<Product, ProductInCategoryDto>();
