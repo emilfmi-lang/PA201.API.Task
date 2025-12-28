@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "ImageApi.Controllers.ImagesController",
+    "Method": "Get",
+    "RelativePath": "api/Images/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ImageApi.Controllers.ImagesController",
+    "Method": "Upload",
+    "RelativePath": "api/Images/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

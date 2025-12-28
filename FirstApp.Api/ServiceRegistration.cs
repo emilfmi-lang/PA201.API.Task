@@ -1,7 +1,6 @@
 ﻿using FirstApp.Api.Data;
-using Microsoft.EntityFrameworkCore;
-using AutoMapper;
 using FirstApp.Api.Profiles;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstApp.Api;
 

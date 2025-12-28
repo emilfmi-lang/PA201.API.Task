@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\profiles\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\profiles\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\firstapp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\firstapp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|c:\\users\\user\\desktop\\backend.api\\firstapp.api\\firstapp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5716C6E0-6ACE-4780-B1EA-6274AFF57CA0}|FirstApp.Api\\FirstApp.Api.csproj|solutionrelative:firstapp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +46,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MapProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Profiles\\MapProfile.cs",
+              "RelativeDocumentMoniker": "FirstApp.Api\\Profiles\\MapProfile.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Profiles\\MapProfile.cs",
+              "RelativeToolTip": "FirstApp.Api\\Profiles\\MapProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T10:52:42.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "FirstApp.Api\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\ServiceRegistration.cs",
+              "RelativeToolTip": "FirstApp.Api\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T10:50:31.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FirstApp.Api.http",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\FirstApp.Api.http",
+              "RelativeDocumentMoniker": "FirstApp.Api\\FirstApp.Api.http",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\FirstApp.Api.http",
+              "RelativeToolTip": "FirstApp.Api\\FirstApp.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-28T10:50:26.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FirstApp.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\appsettings.Development.json",
+              "RelativeToolTip": "FirstApp.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-28T10:50:22.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FileManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Helpers\\FileManager.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Helpers\\FileManager.cs",
@@ -42,12 +110,11 @@
               "RelativeToolTip": "FirstApp.Api\\Helpers\\FileManager.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T09:15:46.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T09:15:46.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FileTypeAttribute.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Attributes\\FileTypeAttribute.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Attributes\\FileTypeAttribute.cs",
@@ -55,25 +122,23 @@
               "RelativeToolTip": "FirstApp.Api\\Attributes\\FileTypeAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T09:08:23.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T09:08:23.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FirstApp.Api",
+              "DocumentIndex": 8,
+              "Title": "FirstApp.Api.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\FirstApp.Api.csproj",
               "RelativeDocumentMoniker": "FirstApp.Api\\FirstApp.Api.csproj",
               "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\FirstApp.Api.csproj",
               "RelativeToolTip": "FirstApp.Api\\FirstApp.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-28T09:05:38.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T09:05:38.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "FileLengthAttribute.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Attributes\\FileLengthAttribute.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Attributes\\FileLengthAttribute.cs",
@@ -81,18 +146,17 @@
               "RelativeToolTip": "FirstApp.Api\\Attributes\\FileLengthAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T09:06:23.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T09:06:23.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "FirstApp.Api\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Backend.Api\\FirstApp.Api\\FirstApp.Api\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "FirstApp.Api\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAxwEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-28T08:58:42.377Z",
               "EditorCaption": ""
